@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import {AddPost} from './AddPost';
+import {PostList} from './PostList';
 
-const HomePage = () => {
-    return (
-        <div>
-           <h2 className="title">Title</h2>
-        </div>
-    )
+export const HomePage = () => {
+  return (
+    <>
+      <AddPost />
+      <PostList />
+    </>
+  )
 }
-
-export default HomePage
